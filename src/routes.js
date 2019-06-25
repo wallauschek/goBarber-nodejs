@@ -3,7 +3,7 @@ const { Router } = require("express");
 const routes = new Router();
 
 routes.get("/", (req, res) => {
-  return res.json({ message: "test" });
+  return res.json({ message: "testando" });
 });
 
-module.exports = routes;
+export default routes;
